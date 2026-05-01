@@ -1,19 +1,43 @@
 ## Hi there 👋
 
-I am a Software Engineer with over 3 years of experience, specializing in Systems and Network Engineering. My expertise includes implementing security at both the infrastructure and application levels, with a strong focus on compliance. I have hands-on experience with FIPS enablement across service images, libraries, and packages to ensure full FIPS compliance.
+Systems & eBPF engineer building kernel-level observability and networking tools on Linux.
 
-In addition, I possess a solid background in Blockchain and Web3 technologies. I have developed decentralized applications (dApps) and smart contracts for both Web3 startups and enterprise clients, contributing to secure and scalable blockchain-based solutions.
+I work with C, Go, and Rust — writing eBPF programs, implementing network protocols, and exploring kernel internals. <!-- Active contributor to Cilium and the Linux kernel. -->
 
-- 🔭 I’m currently working on tftp implementation using TCP
-- 🌱 I’m currently learning [Unix Network Programming, by W.R. Stevens](http://kohala.com/)
-- 👯 I’m looking to collaborate on remote software engineering projects or long-term opportunities where I can contribute my skills in C/C++, systems programming, and backend development.
-- 💬 Ask me about C, C++, System, Network, and Blockchain.
+### What I'm building
 
-**Reach me on:**
-- 🌐 <a href="https://www.linkedin.com/in/pranavramjoshi/">LinkedIn</a>
+- [Veil](https://github.com/PranavRJoshi/Veil) — eBPF-based kernel observability toolkit for Linux. Traces syscalls, file access, and TCP connections with minimal overhead. Built with Go and the cilium/ebpf library.
+- **Network protocol implementations in C, Go, and Rust** — TFTP (TCP/UDP with RTT-based reliability), ICMP Ping/Traceroute (raw sockets), and transport-layer protocol state machines.
+- **BPF packet capture & filtering** — tcpdump-like program using classic BPF on BSD, extending to eBPF + XDP on Linux.
 
-### 🏆GitHub
+### What I write about
+
+I publish deep dives on systems internals at [pranavramjoshi.me/blog](https://pranavramjoshi.me/blog):
+
+- [Extended Berkeley Packet Filter: From Packet Filtering to Kernel Programmability](https://www.pranavramjoshi.me/blog/bpf) — 32 min
+- [Mach Kernel Abstractions and XNU Internals](https://www.pranavramjoshi.me/blog/mach-xnu-internals) — 22 min
+- [Use-After-Free in C: Static Analysis and What Rust Does Differently](https://www.pranavramjoshi.me/blog/use-after-free-c-static-analysis-rust)
+- [Process Memory Layout on macOS ARM64](https://www.pranavramjoshi.me/blog/process-memory-layout-macos-arm64-lldb)
+- [How the Shell Executes Programs](https://www.pranavramjoshi.me/blog/shell-process-fork-exec-environment)
+- [How UNIX Terminal Devices Work](https://www.pranavramjoshi.me/blog/unix-terminal-device-tty-line-discipline)
+- [Writing Portable C Code with Autotools](https://www.pranavramjoshi.me/blog/writing-portable-c-code-autotools)
+
+<!-- ### Open source
+
+Cilium — Contributing to eBPF-based networking and observability for Kubernetes.
+Linux kernel — Patches to the staging tree (drivers/staging/) via LKML. -->
+
+### Core stack
+`C` · `Go` · `Rust` · `eBPF/XDP` · `libbpf/CO-RE` · `Linux internals` · `TCP/IP` · `raw sockets` · `POSIX` · `Makefile`
+
+---
+
+Open to systems engineering, eBPF, and infrastructure roles — remote or relocation.
+pranavramjoshi.me · pranavrjoshi8@gmail.com [LinkedIn](https://www.linkedin.com/in/pranavramjoshi/)
+
+<!-- ### 🏆GitHub
 
 [![Pranav's GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=PranavRJoshi&include_all_commits=true&count_private=true&theme=monokai&show_icons=true)](https://github.com/PranavRJoshi)
 
 ![](https://github-profile-trophy.vercel.app/?username=PranavRJoshi&theme=monokai&no-frame=false&no-bg=false&margin-w=4)
+-->
