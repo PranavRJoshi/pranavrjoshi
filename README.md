@@ -7,6 +7,7 @@ I work with C, Go, and Rust - writing eBPF programs, implementing network protoc
 ### What I'm building
 
 - [Veil](https://github.com/PranavRJoshi/Veil) - eBPF-based kernel observability toolkit for Linux. Traces syscalls, file access, and TCP connections with minimal overhead. Built with Go and the cilium/ebpf library.
+- [Strata](https://github.com/PranavRJoshi/Strata) - Multi-format binary file parser library and CLI tool.
 - **Network protocol implementations in C, Go, and Rust** - TFTP (TCP/UDP with RTT-based reliability), ICMP Ping/Traceroute (raw sockets), and transport-layer protocol state machines.
 - **BPF packet capture & filtering** - tcpdump-like program using classic BPF on BSD, extending to eBPF + XDP on Linux.
 
